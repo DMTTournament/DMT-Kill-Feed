@@ -1,0 +1,2 @@
+aiohttp
+hllrcon==0.2.0
