@@ -1,3 +1,0 @@
-# HLL Killfeed
-Set env vars in Railway:
-RCON_HOST, RCON_PORT, RCON_PASSWORD, KILL_FEED_WEBHOOK_URL
