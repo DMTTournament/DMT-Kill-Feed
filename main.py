@@ -21,7 +21,7 @@ POLL_INTERVAL_SECONDS = float(os.getenv("POLL_INTERVAL_SECONDS", "8") or "8")
 RECONNECT_DELAY_SECONDS = float(os.getenv("RECONNECT_DELAY_SECONDS", "10") or "10")
 
 DEDUP_CACHE_SIZE = int(os.getenv("DEDUP_CACHE_SIZE", "3000") or "3000")
-DEDUP_TTL_SECONDS = int(os.getenv("DEDUP_TTL_SECONDS", "600") or "600")
+DEDUP_TTL_SECONDS = int(os.getenv("DEDUP_TTL_SECONDS", "900") or "900")
 
 DEBUG_PARSE = os.getenv("DEBUG_PARSE", "false").lower() == "true"
 DEBUG_SAMPLE_LIMIT = int(os.getenv("DEBUG_SAMPLE_LIMIT", "8") or "8")
